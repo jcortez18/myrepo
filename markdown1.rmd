@@ -4,26 +4,15 @@ output: github_document
 date: "2024-02-07"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
+## This is a heading 2  
+We must put a double space at the end of a sentence to register as a newline. 
+Otherwise this happens. This should have been a new line.  
+This one is done correctly.  
+
+```{r, eval=TRUE}
+x <- 3 #two ways of assigning
+x = 1 #don't do this in R
+print(x+8)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

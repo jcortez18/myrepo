@@ -1,6 +1,6 @@
 ---
 title: "Practice"
-output: html_document
+output: github_document
 date: "2024-02-07"
 ---
 
